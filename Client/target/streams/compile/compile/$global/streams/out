@@ -1,0 +1,65 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala, /Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /Users/chunyangshen/Desktop/Client/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 48c36122, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes:/Users/chunyangshen/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/chunyangshen/Desktop/Client/target/scala-2.11/classes:/Users/chunyangshen/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/chunyangshen/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-client_2.11/bundles/spray-client_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-can_2.11/bundles/spray-can_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-io_2.11/bundles/spray-io_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-util_2.11/bundles/spray-util_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-http_2.11/bundles/spray-http_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/org.parboiled/parboiled-scala_2.11/jars/parboiled-scala_2.11-1.1.7.jar:/Users/chunyangshen/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.7.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-httpx_2.11/bundles/spray-httpx_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.3.jar:/Users/chunyangshen/.ivy2/cache/org.jvnet.mimepull/mimepull/jars/mimepull-1.9.5.jar:/Users/chunyangshen/.ivy2/cache/io.spray/spray-routing_2.11/bundles/spray-routing_2.11-1.3.3.jar:/Users/chunyangshen/.ivy2/cache/com.chuusai/shapeless_2.11/jars/shapeless_2.11-1.2.4.jar:/Users/chunyangshen/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.10.jar:/Users/chunyangshen/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.10.jar:/Users/chunyangshen/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.10.jar:/Users/chunyangshen/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/Users/chunyangshen/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar:/Users/chunyangshen/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/Users/chunyangshen/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar:/Users/chunyangshen/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 5.661542646 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	WithTransformation, context, self, WithTransformerConcatenation, header2AddHeader, executionContext, timeout.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Main, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m	self, context.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/chunyangshen/Desktop/Client/src/main/scala/Message.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, ClientGet, wait, StartMakingFriends, $asInstanceOf, productArity, equals, ClientPost, asInstanceOf, synchronized, FinishMakingFriends, $isInstanceOf, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, Initialize, ==, clone, toString, !=, getClass, FinishMakingAlbums, ne, MakingAlbums, FinishRegister, eq, productIterator, Register, ##, finalize, StartSimulation, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/chunyangshen/Desktop/Client/src/main/scala/Client.scala: Set(ClientGet, StartMakingFriends, equals, ClientPost, asInstanceOf, FinishMakingFriends, isInstanceOf, ==, FinishMakingAlbums, MakingAlbums, FinishRegister, Register, StartSimulation)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/chunyangshen/Desktop/Client/src/main/scala/Main.scala: Set(Initialize)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/chunyangshen/Desktop/Client/src/main/scala/Master.scala: Set(StartMakingFriends, asInstanceOf, FinishMakingFriends, Initialize, ==, FinishMakingAlbums, MakingAlbums, FinishRegister, Register, StartSimulation)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
